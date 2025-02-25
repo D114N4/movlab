@@ -161,6 +161,39 @@
     width: 50rem;
 }
 
+/* -----------------INICIA SESION DE BOLETINES-------------------- */
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 3rem 2rem 1rem 2rem;
+    text-align: start;
+    color:var(--background-azul1);
+}
+
+.card{
+    display: flex;
+    margin:0.5rem 1rem;
+    border:none;
+    text-align: justify;
+    width:35rem;
+    height: 35rem;
+}
+
+.card-footer{
+    margin:1rem 1rem;
+    width: 15rem;
+}
+
+.btn1{
+    background-color: var(--background-azul1);
+    padding:.5rem 0.8rem;
+    border-radius: 2rem;
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn1:hover{
+    background-color: var(--color-azulCielo);
+    transition: 1s;
+}
 /* ---------MEDIAQUERIES------------ */
 @media screen and (max-width: 1000px) {
     .sombra {
