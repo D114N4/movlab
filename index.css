@@ -121,12 +121,14 @@
     font-size: 1rem;
     border-radius: 2rem;
     transition: 1s;
+    text-decoration: none;
 }
 
 .botonDonaciones:hover {
     background-color: var(--background-azul2);
     border-color: var(--background-azul1);
     color: var(--color-amarillo);
+    text-decoration: none;
 }
 
 
