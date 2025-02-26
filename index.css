@@ -245,6 +245,15 @@ a{
     padding: 2rem;
     background-color: #047cfd13;
 }
+
+/* -------------SECCION REDES SOCIALES------------------- */
+.facebook{
+    gap:3rem;
+    margin:0.5rem 5rem;
+    border-radius: 5rem;
+    width: 15rem;
+    height: 15rem;
+}
 /* ---------MEDIAQUERIES------------ */
 @media screen and (max-width: 1000px) {
     .sombra {
@@ -353,6 +362,13 @@ a{
         width: 25rem;
         background-color: #047cfd13;
     }
+    .facebook{
+        gap:1rem;
+        margin:0.5rem 1rem;
+        border-radius: 5rem;
+        width: 10rem;
+        height: 10rem;
+    }
 }
 
 /*500*/
@@ -431,6 +447,13 @@ a{
         border-radius: 2rem;
         color:white;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .facebook{
+        gap:1rem;
+        margin:0.5rem .5rem;
+        border-radius: 5rem;
+        width: 7rem;
+        height: 7rem;
     }
 }
 /*350px*/
@@ -539,5 +562,12 @@ a{
         padding: 0rem;
         width: 10rem;
         background-color: #047cfd13;
+    }
+    .facebook{
+        gap:1rem;
+        margin:0.5rem .5rem;
+        border-radius: 5rem;
+        width: 5rem;
+        height: 5rem;
     }
 }
