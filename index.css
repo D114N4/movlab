@@ -208,7 +208,7 @@ a{
     padding:.5rem 6rem;
     border-radius: 3rem;
     color:white;
-    margin:2rem 30rem;
+    margin:2rem 3rem;
     align-items: center;
     justify-content: center;
     background-color: var(--background-azul1);
@@ -270,6 +270,65 @@ a{
     width: 35rem;
 }
 
+/* ----------------------------SECCION DE NUESTRAS PROPUESTAS -------------------------- */
+
+.politicos {
+    margin: 0rem 4rem;
+}
+
+.encuentranos {
+    margin: 0rem 1rem;
+}
+
+.item-politico{
+    gap:1rem;
+    margin:0.5rem 1rem;
+}
+.politicosBox{
+    width: 100%;
+}
+.persona1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: var(--background-azul1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin:0.5rem 10rem 0.5rem 0rem;
+}
+
+.persona1:hover {
+    color: #000000;
+}
+
+.fotoPersonaje {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 15rem;
+    margin: 1rem 1rem;
+}
+
+.sabermore {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: var(--background-azul1);
+    margin: 0rem 2rem 1rem 2rem;
+    padding: .1rem 3rem;
+    border-radius: 4rem;
+    border-color: var(--background-azul1);
+
+}
+
+.sabermore:hover {
+    background-color: var(--color-azulCielo);
+    color: white;
+}
+
+.politicos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
 
 
 /* ---------MEDIAQUERIES------------ */
