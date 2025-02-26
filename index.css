@@ -219,6 +219,32 @@ a{
     background-color: var(--color-azulCielo);
     transition: 1s;
 }
+
+
+/* -------------------SECCION DE MAPA---------------- */
+.mapa{
+    margin:1rem 5rem;
+}
+.encuentranos {
+    width: 100%;
+    color: var(--background-azul1);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    padding: 1rem;
+    margin: 1 2rem;
+    transition: .2s;
+}
+
+.encuentranos:hover {
+    color: var(--color-azulCielo);
+}
+
+.google-maps {
+    width: 100%;
+    text-align: center;
+    padding: 2rem;
+    background-color: #047cfd13;
+}
 /* ---------MEDIAQUERIES------------ */
 @media screen and (max-width: 1000px) {
     .sombra {
@@ -304,6 +330,28 @@ a{
         justify-content: center;
         background-color: var(--background-azul1);
         color: white;
+    }
+    .mapa{
+        margin:1rem 0rem;
+    }
+    .encuentranos {
+        color: var(--background-azul1);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+        padding: 1rem;
+        margin:0rem;
+        transition: .2s;
+    }
+    iframe{
+        margin: 0;
+        width: 15rem;
+        background-color: #000000;
+    }
+    .google-maps {
+        text-align: center;
+        padding: 0rem;
+        width: 25rem;
+        background-color: #047cfd13;
     }
 }
 
@@ -469,5 +517,27 @@ a{
         justify-content: center;
         background-color: var(--background-azul1);
         color: white;
+    }
+    .mapa{
+        margin:1rem 0rem;
+    }
+    .encuentranos {
+        color: var(--background-azul1);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+        padding: 0rem;
+        margin:0rem;
+        transition: .2s;
+    }
+    iframe{
+        margin: 0;
+        width: 8rem;
+        background-color: #000000;
+    }
+    .google-maps {
+        text-align: center;
+        padding: 0rem;
+        width: 10rem;
+        background-color: #047cfd13;
     }
 }
