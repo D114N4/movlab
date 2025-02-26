@@ -23,31 +23,34 @@
 .container-fluid {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 1rem;
-    color:var(--background-azul1);
+    color: var(--background-azul1);
 }
-.navbar-brand{
+
+.navbar-brand {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 1rem;
-    color:var(--background-azul1);
-    margin:0.5rem;
+    color: var(--background-azul1);
+    margin: 0.5rem;
 }
-.navbar-brand:hover{
+
+.navbar-brand:hover {
     text-decoration: underline;
     color: var(--color-azulCielo);
     transition: 1s;
 }
 
-.nav-link{
+.nav-link {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 1rem;
-    color:var(--background-azul1);
+    color: var(--background-azul1);
 }
 
 .nav-link:hover {
-    color:var(--color-azulCielo);
+    color: var(--color-azulCielo);
     text-decoration: underline;
     transition: 1s;
 }
+
 .afiliate {
     text-decoration: none;
     border-radius: 2rem;
@@ -84,6 +87,7 @@
     font-size: .90rem;
 
 }
+
 /*----------------INICIA BODY------------------------------*/
 
 /* -------------------INICIA LA IMAGEN DEL FONDO------------------------- */
@@ -127,39 +131,124 @@
 
 
 /* -----------------INICIA SESION DE BOLETINES-------------------- */
-.title{
+.title {
     font-family: Arial, Helvetica, sans-serif;
     margin: 3rem 2rem 1rem 2rem;
     text-align: start;
-    color:var(--background-azul1);
+    color: var(--background-azul1);
 }
 
-.card{
+.card {
     display: flex;
-    margin:0.5rem 1rem;
-    border:none;
+    margin: 0.5rem 1rem;
+    border: none;
     text-align: justify;
-    width:35rem;
+    width: 35rem;
     height: 35rem;
 }
-.card-img, .card-img-top{
+
+.card-img,
+.card-img-top {
     width: 35rem;
     height: 25rem;
 }
 
-.card-footer{
-    margin:1rem 1rem;
+.card-footer {
+    margin: 1rem 1rem;
     width: 15rem;
 }
 
-.btn1{
+.btn1 {
     background-color: var(--background-azul1);
-    padding:.5rem 0.8rem;
+    padding: .5rem 0.8rem;
     border-radius: 2rem;
-    color:white;
+    color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.btn1:hover{
+
+.btn1:hover {
     background-color: var(--color-azulCielo);
     transition: 1s;
+}
+
+/* ---------MEDIAQUERIES------------ */
+@media screen and (max-width: 1000px) {
+    .saberMas {
+        display: flex;
+        padding: .5rem 1rem;
+        border-radius: 3rem;
+        color: white;
+        margin: 2rem 25rem;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--background-azul1);
+        color: white;
+    }
+}
+
+/*700px*/
+@media screen and (max-width: 700px) {
+    .saberMas {
+        display: flex;
+        padding: .5rem .5rem;
+        border-radius: 3rem;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--background-azul1);
+        color: white;
+    }
+}
+
+/*500*/
+@media screen and (max-width: 500px) {
+    .card {
+        display: flex;
+        margin: 0.5rem 1rem;
+        border: none;
+        text-align: justify;
+        width: 25rem;
+        height: 25rem;
+    }
+
+    .card-img,
+    .card-img-top {
+        width: 25rem;
+        height: 25rem;
+    }
+
+    .card-footer {
+        margin: 1rem 1rem;
+        width: 15rem;
+    }
+}
+
+/*350px*/
+@media screen and (max-width: 350px) {
+    .card {
+        display: flex;
+        margin: 0.5rem 1rem;
+        border: none;
+        text-align: justify;
+        width: 18rem;
+        height: 20rem;
+    }
+
+    .card-img,
+    .card-img-top {
+        width: 18rem;
+        height: 20rem;
+    }
+
+    .saberMas {
+        display: flex;
+        padding: .5rem 1rem;
+        border-radius: 3rem;
+        color: white;
+        margin: 2rem 4rem;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--background-azul1);
+        color: white;
+    }
 }
