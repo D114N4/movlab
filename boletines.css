@@ -129,6 +129,19 @@
     color: var(--color-amarillo);
 }
 
+/* --------------------------------------------FOOTER */
+.logoFooter{
+    width:5rem;
+    height: 5rem;
+}
+
+.socialRed{
+    margin:.5rem 2rem 0.5rem 0rem;
+    text-align: center;
+    width:2rem;
+    height: 2rem;
+}
+
 
 /* -----------------INICIA SESION DE BOLETINES-------------------- */
 .title {
@@ -222,6 +235,7 @@
         width: 15rem;
     }
 }
+
 
 /*350px*/
 @media screen and (max-width: 350px) {

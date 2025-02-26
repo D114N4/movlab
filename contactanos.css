@@ -124,3 +124,16 @@
     border-color: var(--background-azul1);
     color: var(--color-amarillo);
 }
+
+/* --------------------------------------------FOOTER */
+.logoFooter{
+    width:5rem;
+    height: 5rem;
+}
+
+.socialRed{
+    margin:.5rem 2rem 0.5rem 0rem;
+    text-align: center;
+    width:2rem;
+    height: 2rem;
+}
