@@ -177,6 +177,10 @@
     width:35rem;
     height: 35rem;
 }
+.card-img, .card-img-top{
+    width: 35rem;
+    height: 25rem;
+}
 
 .card-footer{
     margin:1rem 1rem;
@@ -194,6 +198,7 @@
     background-color: var(--color-azulCielo);
     transition: 1s;
 }
+
 /* ---------MEDIAQUERIES------------ */
 @media screen and (max-width: 1000px) {
     .sombra {
