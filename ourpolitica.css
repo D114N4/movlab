@@ -23,31 +23,34 @@
 .container-fluid {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 1rem;
-    color:var(--background-azul1);
+    color: var(--background-azul1);
 }
-.navbar-brand{
+
+.navbar-brand {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 1rem;
-    color:var(--background-azul1);
-    margin:0.5rem;
+    color: var(--background-azul1);
+    margin: 0.5rem;
 }
-.navbar-brand:hover{
+
+.navbar-brand:hover {
     text-decoration: underline;
     color: var(--color-azulCielo);
     transition: 1s;
 }
 
-.nav-link{
+.nav-link {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 1rem;
-    color:var(--background-azul1);
+    color: var(--background-azul1);
 }
 
 .nav-link:hover {
-    color:var(--color-azulCielo);
+    color: var(--color-azulCielo);
     text-decoration: underline;
     transition: 1s;
 }
+
 .afiliate {
     text-decoration: none;
     border-radius: 2rem;
@@ -84,6 +87,7 @@
     font-size: .90rem;
 
 }
+
 /*----------------INICIA BODY------------------------------*/
 
 /* -------------------INICIA LA IMAGEN DEL FONDO------------------------- */
@@ -123,4 +127,133 @@
     background-color: var(--background-azul2);
     border-color: var(--background-azul1);
     color: var(--color-amarillo);
+}
+
+/* ----------nuestra politica */
+.row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.col-md-1 {
+    width: 15rem;
+    margin: 1rem;
+    text-decoration: none;
+}
+
+.img1-fluid {
+    width: 32rem;
+    height: 20rem;
+}
+
+.card1-title {
+    margin: 1rem 1rem .5rem 16rem;
+    width: 30rem;
+}
+
+.card1-text {
+    margin: 1rem 1rem .5rem 16rem;
+    text-align: justify;
+    width: 35rem;
+}
+
+/* ---------MEDIAQUERIES------------ */
+@media screen and (max-width: 1000px) {
+    .col-md-1 {
+        width: 10rem;
+        margin: 1rem;
+        text-decoration: none;
+    }
+
+    .img1-fluid {
+        width: 25rem;
+        height: 20rem;
+    }
+
+    .card1-title {
+        margin: 1rem 1rem .5rem 13rem;
+        width: 30rem;
+    }
+
+    .card1-text {
+        margin: 1rem 1rem .5rem 13rem;
+        text-align: justify;
+        width: 35rem;
+    }
+
+}
+
+/*700px*/
+@media screen and (max-width: 700px) {
+    .col-md-1{
+        width: 10rem;
+        margin:1rem;
+        text-decoration: none;
+    }
+    .img1-fluid{
+        width: 15rem;
+        height: 20rem;
+    }
+    .card1-title{
+        margin: 1rem 1rem .5rem 4rem;
+        width: 20rem;
+    }
+    
+    .card1-text{
+        margin: 1rem 0rem .5rem 3rem;
+        text-align: justify;
+        width: 20rem;
+        font-size: .8rem;
+    }
+    
+    
+}
+
+/*500*/
+@media screen and (max-width: 500px) {
+    .col-md-1{
+        width: 6rem;
+        margin:1rem;
+        text-decoration: none;
+    }
+    .img1-fluid{
+        width: 8rem;
+        height: 20rem;
+    }
+    .card1-title{
+        margin: 1rem 1rem .5rem 0rem;
+        width: 18rem;
+    }
+    
+    .card1-text{
+        margin: 1rem 0rem .5rem 0rem;
+        text-align: justify;
+        width: 18rem;
+        font-size: .8rem;
+    }
+}
+
+/*350px*/
+@media screen and (max-width: 350px) {
+    .col-md-1{
+        width: 4rem;
+        margin:1rem;
+        text-decoration: none;
+    }
+    .img1-fluid{
+        width: 5rem;
+        height: 20rem;
+    }
+    .card1-title{
+        margin: 1rem 1rem .5rem 0rem;
+        width: 8rem;
+    }
+    
+    .card1-text{
+        margin: 1rem 0rem .5rem 0rem;
+        text-align: justify;
+        width: 10rem;
+        font-size: .5rem;
+    }
 }

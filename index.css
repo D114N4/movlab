@@ -254,6 +254,24 @@ a{
     width: 15rem;
     height: 15rem;
 }
+
+/*------------------SECCION DE NUESTRA POLITICA-------------*/
+.img1-fluid{
+    width: 35rem;
+    height: 25rem;
+}
+.card1-title{
+    margin: 1rem 1rem .5rem 25rem;
+    width: 35rem;
+}
+
+.card1-text{
+    margin: 1rem 1rem .5rem 25rem;
+    width: 35rem;
+}
+
+
+
 /* ---------MEDIAQUERIES------------ */
 @media screen and (max-width: 1000px) {
     .sombra {
@@ -296,6 +314,23 @@ a{
         justify-content: center;
         background-color: var(--background-azul1);
         color: white;
+    }
+    .card{
+        display: flex;
+        margin:0.5rem 1rem;
+        border:none;
+        text-align: justify;
+        width:22rem;
+        height: 35rem;
+    }
+    .card-img, .card-img-top{
+        width: 22rem;
+        height: 25rem;
+    }
+    
+    .card-footer{
+        margin:1rem 1rem;
+        width: 15rem;
     }
 }
 
@@ -356,6 +391,24 @@ a{
         width: 15rem;
         background-color: #000000;
     }
+
+    .card{
+        display: flex;
+        margin:0.5rem 1rem;
+        border:none;
+        text-align: justify;
+        width:35rem;
+        height: 35rem;
+    }
+    .card-img, .card-img-top{
+        width: 35rem;
+        height: 25rem;
+    }
+    
+    .card-footer{
+        margin:1rem 1rem;
+        width: 20rem;
+    }
     .google-maps {
         text-align: center;
         padding: 0rem;
@@ -369,6 +422,7 @@ a{
         width: 10rem;
         height: 10rem;
     }
+    
 }
 
 /*500*/
@@ -410,6 +464,7 @@ a{
         transition: 1s;
         margin: 1.5rem 1.5rem 0.2rem  1.5rem;
     }
+
     .espaciopregunta {
         display: flex;
         justify-content: center;
@@ -428,11 +483,11 @@ a{
         margin:0.5rem 1rem;
         border:none;
         text-align: justify;
-        width:25rem;
-        height: 25rem;
+        width:23rem;
+        height: 35rem;
     }
     .card-img, .card-img-top{
-        width: 25rem;
+        width: 23rem;
         height: 25rem;
     }
     
@@ -440,7 +495,6 @@ a{
         margin:1rem 1rem;
         width: 15rem;
     }
-    
     .btn1{
         background-color: var(--background-azul1);
         padding:.5rem 0.8rem;
@@ -455,6 +509,23 @@ a{
         width: 7rem;
         height: 7rem;
     }
+    .btn1{
+        font-size: .6rem;
+        padding: .3rem .5rem;
+    }
+    .saberMas{
+        display:flex;
+        padding:.5rem 2rem;
+        border-radius: 3rem;
+        font-size: .5rem;
+        color:white;
+        margin:1rem 10rem;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--background-azul1);
+        color: white;
+    }
+    
 }
 /*350px*/
 @media screen and (max-width: 350px) {
@@ -510,11 +581,12 @@ a{
     }
     .saberMas{
         display:flex;
-        padding:.5rem 6rem;
+        padding:.5rem 1rem;
         border-radius: 3rem;
         color:white;
-        align-items: initial;
-        justify-content: initial;
+        margin:2rem 4rem;
+        align-items: center;
+        justify-content: center;
         background-color: var(--background-azul1);
         color: white;
     }
@@ -524,22 +596,16 @@ a{
         border:none;
         text-align: justify;
         width:18rem;
-        height: 20rem;
+        height: 30rem;
     }
     .card-img, .card-img-top{
         width: 18rem;
         height: 20rem;
     }
-    .saberMas{
-        display:flex;
-        padding:.5rem 1rem;
-        border-radius: 3rem;
-        color:white;
-        margin:2rem 4rem;
-        align-items: center;
-        justify-content: center;
-        background-color: var(--background-azul1);
-        color: white;
+    
+    .card-footer{
+        margin:1rem 1rem;
+        width: 15rem;
     }
     .mapa{
         margin:1rem 0rem;
