@@ -113,7 +113,7 @@
     transition: opacity .3s;
     opacity: 1;
     padding: 2rem 5rem;
-    color: white;
+    color: black;
 }
 
 .botonDonaciones {
@@ -122,12 +122,13 @@
     border-radius: 2rem;
     transition: 1s;
     text-decoration: none;
+    color:black;
 }
 
 .botonDonaciones:hover {
     background-color: var(--background-azul2);
     border-color: var(--background-azul1);
-    color: var(--color-amarillo);
+    color: white;
     text-decoration: none;
 }
 
@@ -272,20 +273,38 @@ a{
 
 /* ----------------------------SECCION DE NUESTRAS PROPUESTAS -------------------------- */
 
-.politicos {
-    margin: 0rem 4rem;
+.fotoPersonaje{
+    width:15rem;
+    height: 15rem;
+    border-radius: 15rem;
+}
+.politicosBox{
+   font-size: 1rem;
+}
+
+.item-politico{
+    justify-content: space-between;
+    align-items: baseline;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.persona1{
+    display:grid;
+}
+/* .politicos {
+    margin: 0rem 2rem;
 }
 
 .encuentranos {
     margin: 0rem 1rem;
 }
-
+.politicosBox{
+   
+}
 .item-politico{
     gap:1rem;
     margin:0.5rem 1rem;
-}
-.politicosBox{
-    width: 100%;
 }
 .persona1 {
     font-family: Arial, Helvetica, sans-serif;
@@ -323,11 +342,25 @@ a{
 .sabermore:hover {
     background-color: var(--color-azulCielo);
     color: white;
-}
+} */
 
-.politicos {
+/* .politicos {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+} */
+
+
+/* --------------------------------------------FOOTER */
+.logoFooter{
+    width:5rem;
+    height: 5rem;
+}
+
+.socialRed{
+    margin:.5rem 2rem 0.5rem 0rem;
+    text-align: center;
+    width:2rem;
+    height: 2rem;
 }
 
 
