@@ -8,7 +8,7 @@
 /*PROPIEDADES UTILIZADAS EN TODO EL BODY*/
 :root {
     --background-azul1: #080056;
-    --background-azul2: #0E335B;
+    --background-azul2: rgb(14, 51, 91);
     --color-amarillo: #cccc36;
     --color-azulCielo: #09A0Db;
     --color-negro: #000000;
@@ -273,51 +273,23 @@ a{
 
 /* ----------------------------SECCION DE NUESTRAS PROPUESTAS -------------------------- */
 
-.fotoPersonaje{
-    width:15rem;
-    height: 15rem;
-    border-radius: 15rem;
-}
-.politicosBox{
-   font-size: 1rem;
-}
-
-.item-politico{
-    justify-content: space-between;
-    align-items: baseline;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-.persona1{
-    display:grid;
-}
-/* .politicos {
-    margin: 0rem 2rem;
+.politicos {
+    margin: 3rem 8rem;
 }
 
 .encuentranos {
     margin: 0rem 1rem;
 }
-.politicosBox{
-   
-}
-.item-politico{
-    gap:1rem;
-    margin:0.5rem 1rem;
-}
-.persona1 {
+
+.persona {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
     color: var(--background-azul1);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin: 0rem 7rem;
     text-align: center;
-    margin:0.5rem 10rem 0.5rem 0rem;
 }
 
-.persona1:hover {
+.persona:hover {
     color: #000000;
 }
 
@@ -325,35 +297,37 @@ a{
     width: 15rem;
     height: 15rem;
     border-radius: 15rem;
-    margin: 1rem 1rem;
+    gap: 5rem;
+    margin: 1rem 5rem;
 }
 
-.sabermore {
+.saberMore {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
     color: var(--background-azul1);
-    margin: 0rem 2rem 1rem 2rem;
-    padding: .1rem 3rem;
+    margin: .5rem 6rem 1rem 8rem;
+    padding: .1rem 1rem;
     border-radius: 4rem;
     border-color: var(--background-azul1);
-
+    align-items: start;
 }
 
-.sabermore:hover {
+.saberMore:hover {
     background-color: var(--color-azulCielo);
     color: white;
-} */
+}
 
-/* .politicos {
+.politicos {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-} */
+}
+
 
 
 /* --------------------------------------------FOOTER */
 .logoFooter{
-    width:5rem;
-    height: 5rem;
+    width:8rem;
+    height: 8rem;
 }
 
 .socialRed{
@@ -363,6 +337,32 @@ a{
     height: 2rem;
 }
 
+.footer{
+    padding: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: var(--background-azul1);
+}
+
+.text-uppercase:hover{
+    text-decoration: overline;
+    color:var(--color-azulCielo);
+}
+
+.text-reset:hover{
+    text-decoration: overline;
+    color: var(--color-azulCielo);
+}
+
+p:hover{
+    text-decoration: overline;
+    color:var(--color-azulCielo);
+}
+
+.text-center{
+    text-decoration: unset;
+    color: white;
+}
 
 /* ---------MEDIAQUERIES------------ */
 @media screen and (max-width: 1000px) {

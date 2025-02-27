@@ -131,8 +131,8 @@
 
 /* --------------------------------------------FOOTER */
 .logoFooter{
-    width:5rem;
-    height: 5rem;
+    width:8rem;
+    height: 8rem;
 }
 
 .socialRed{
@@ -141,6 +141,34 @@
     width:2rem;
     height: 2rem;
 }
+
+.footer{
+    padding: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: var(--background-azul1);
+}
+
+.text-uppercase:hover{
+    text-decoration: overline;
+    color:var(--color-azulCielo);
+}
+
+.text-reset:hover{
+    text-decoration: overline;
+    color: var(--color-azulCielo);
+}
+
+p:hover{
+    text-decoration: overline;
+    color:var(--color-azulCielo);
+}
+
+.text-center{
+    text-decoration: unset;
+    color: white;
+}
+
 
 
 /* -----------------INICIA SESION DE BOLETINES-------------------- */
