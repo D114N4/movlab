@@ -523,7 +523,7 @@ p:hover{
         max-width: 100%;
         position: absolute;
         z-index: 0;
-        top: 15rem;
+        top: 25rem;
         left: 2rem;
         background-color: var(--background-azul2);
         display: grid;
@@ -617,6 +617,39 @@ p:hover{
         background-color: var(--background-azul1);
         color: white;
     }
+
+    /*NUESTRAS PROPUESTAS*/
+    .politicos{
+        margin:1rem;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .politicosBox{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap:1rem;
+    }
+    .item-politico{
+        margin:1rem;
+        padding: 1rem;
+    }
+    .fotoPersonaje{
+        width: 10rem;
+        height: 10rem;
+    }
+    .figure{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .persona{
+        font-size: 1rem;
+        margin:0rem;
+    }
+    .saberMore{
+        font-size: .8rem;
+        margin: 0rem 6rem;
+    }
     
 }
 /*350px*/
@@ -625,7 +658,7 @@ p:hover{
         max-width: 100%;
         position: absolute;
         z-index: 0;
-        top: 15rem;
+        top: 25rem;
         left: .5rem;
         background-color: var(--background-azul2);
         display: grid;
@@ -728,4 +761,37 @@ p:hover{
         width: 5rem;
         height: 5rem;
     }
+    /*NUESTRAS PROPUESTAS*/
+    .politicos{
+        margin:.0rem;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .politicosBox{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap:1rem;
+    }
+    .item-politico{
+        margin:1rem;
+        padding: 1rem;
+    }
+    .fotoPersonaje{
+        width: 6.6rem;
+        height: 6.6rem;
+    }
+    .figure{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .persona{
+        font-size: 1rem;
+        margin:0rem;
+    }
+    .saberMore{
+        font-size: .7rem;
+        margin: 0rem 5rem;
+    }
+    
 }
