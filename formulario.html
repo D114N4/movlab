@@ -71,13 +71,91 @@
 
 <body>
   <!-- SECCION DE FORMULARIO -->
-  <!-- <section>
-    <img class="imagen1Fondo" src="./sources/IMAGEN1.png">
-    <div class="sombra">
-      <h1>Movimiento Laborista</h1>
-      <button class="botonDonaciones">¡FORMA PARTE DE NOSOTROS!</button>
-    </div>
-  </section> -->
+  <fieldset>
+    <img class="background" src="./sources/img6.jpeg" alt="imagen de fondo">
+    <h1 class="participa">Hazte miembro de Movimiento Laborista</h1>
+  </fieldset>
+
+  <fieldset class="membresia">
+    <h2 class="tittle">Membresía y precios</h1>
+      <p class="text">Nuestra cuota de membresía se divide en dos tarifas</p>
+      <p class="text"><b>Profesionales:</b> $51K al año</p>
+      <p class="text"><b>No trabajado:</b> $25K al año -para estudiantes, jubilados, desempleados o similares</p>
+      <button class="newMiembro" id="newMiembro">¡HAZTE MIEMBRO! 💙</button>
+  </fieldset>
+
+  <fieldset class="miembro">
+    <h2 class="member">¿Que significa ser miembro?</h2>
+    <p class="parrafo">Como miembro del Movimiento Laborista, te unes y apoyas nuestro proyecto político.
+      Tú eliges que tan activo quieres ser. Después del registro, tendrá acceso a las páginas
+      internas de nuestro movimiento.
+      También serás parte de la asociación local donde vives. Al marcar "Quiero recibir notificaciones",
+      se envian periódicamente boletínes sobre asuntos políticos e invitaciones a diversos eventos.
+    </p>
+  </fieldset>
+
+  <h2 class="aporteTittle">Tu aporte importa</h2>
+  <fieldset class="aporte">
+    <img class="imageAporte" src="./sources/img5.jpeg">
+    <p class="textAporte">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum laboriosam possimus
+      pariatur temporibus
+      quidem repellendus necessitatibus nobis veniam fugiat facilis sint nisi deserunt, quo corrupti est consequuntur
+      labore. Dicta, porro?
+      <button class="regalo">Dar regalo</button>
+    </p>
+  </fieldset>
+
+  <fieldset class="miembro">
+    <h2 class="beneficios">Beneficios para miembros</h2>
+    <p class="textBeneficios">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, laboriosam eum
+      consectetur minima non at
+      facilis praesentium, tempora, aspernatur quia perspiciatis modi distinctio consequatur? Error facilis optio
+      expedita velit aperiam?</p>
+  </fieldset>
+
+  <fieldset class="membresia">
+    <h2 class="inf">Tu información personal como miembro</h2>
+    <p class="textInf">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit commodi blanditiis officia! Nisi
+      iure ab soluta
+      dicta temporibus ut, odit earum, consequatur labore molestiae error vero quibusdam numquam, consequuntur ullam?
+    </p>
+  </fieldset>
+
+  <fieldset>
+    <h2 class="help">¿Necesita ayuda?</h2>
+  </fieldset>
+
+
+  <fieldset class="contacto" id="contacto">
+    <img class="imagen2" src="./sources/img4.jpeg" class="imagenFormulario" alt="imagenPolitico">
+    <!-- Inicia formulario -->
+    <form class="formulario">
+      <h2 class="contactanos">Movimiento Laborista</h2>
+      <p class="registro">¡Se parte de nosotros! 🫂 </p>
+      <label class="nombreUsuario" for="nombre">Nombre completo: </label>
+      <input class="espacioUsuario" type="text" id="nombre" placeholder="Nombre completo aquí" required><br>
+      <label class="email" for="email">Correo electrónico:</label>
+      <input class="espacioEmail" type="email" id="email" placeholder="ejemplo@correo.com" required><br>
+      <label class="contactos" for="number"> Contacto: </label>
+      <br>
+      <input class="espacioContacto" type="number" id="number" placeholder=" Numero telefónico"><br>
+      <!-- <label class="nacion" for="text">Nacionalidad</label>
+      <select class="espacioNacion" id="asunto" required>
+        <option>Mexicana (o)</option>
+        <option>Extranjera (o)</option>
+      </select><br> -->
+      <legend class="genero">Género</legend>
+      <!-- Se crea una seccion de radio botones -->
+      <label class="radioname" for="genero-masculino"> Masculino </label>
+      <input class="radio" type="radio" name="genero" id="genero-masculino">
+
+      <label class="radioname" for="genero-femenino"> Femenino </label>
+      <input class="radio" type="radio" name="genero" id="genero-femenino">
+
+      <label class="radioname" for="genero-otro"> Otro </label>
+      <input class="radio" type="radio" name="genero" id="genero-otro"><br>
+      <button class="submit">Submit</button>
+  </fieldset>
 
   <!-- FOOTER -->
   <footer class="text-center text-lg-start bg-body-tertiary text-muted">

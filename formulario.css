@@ -125,6 +125,233 @@
     color: var(--color-amarillo);
 }
 
+
+/* ----------------------------INICIA SECCION DE FORMULARIO--------------- */
+
+.background {
+    max-width: 100%;
+    margin: 2rem;
+    align-items: center;
+    width: 80rem;
+    height: 35rem;
+}
+
+
+.participa {
+    max-width: 50%;
+    position: absolute;
+    z-index: 0;
+    top: 20rem;
+    left: 23rem;
+    background-color: var(--background-azul2);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.9rem;
+    transition: opacity .3s;
+    opacity: 1;
+    padding: 2rem 5rem;
+    color: white;
+    text-align: center;
+}
+
+.participa:hover {
+    background-color: var(--background-azul1);
+    color: white;
+}
+
+.tittle {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    color: var(--background-azul1);
+}
+
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin: 0.5rem 2rem;
+    font-size: 1rem;
+    color: var(--background-azul2);
+}
+
+.newMiembro {
+    border-radius: 1.5rem;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    margin: .5rem 16rem;
+    border-color: var(--background-azul1);
+}
+
+.newMiembro:hover {
+    border-color: var(--background-azul1);
+    color: white;
+    background-color: var(--background-azul2);
+}
+
+.membresia {
+    background-color: #0e335b7a;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    margin: 2rem 15rem;
+}
+
+/* ---------------------------------SECCION MIEMBRO-------------------------------------- */
+.miembro {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: var(--background-azul1);
+    background-color: #09a0db48;
+    margin: 2rem 15rem;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+.member {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.parrafo {
+    text-align: justify;
+    margin: 2rem;
+}
+
+/* --------------------------------- SECCION DE APORTE------------------------------------- */
+.aporte {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+}
+
+.aporteTittle {
+    font-size: 2.5rem;
+    text-align: center;
+    color: var(--background-azul1);
+}
+
+.imageAporte {
+    max-width: 100%;
+    margin: 1rem 2rem;
+    border-radius: 2rem 0 0 2rem;
+    width: 40rem;
+    height: 25rem;
+}
+
+.textAporte {
+    margin: 1rem 1rem 0 0rem;
+    padding: 4rem 1rem;
+    text-align: justify;
+}
+
+.regalo {
+    padding: .2rem 2rem;
+    margin: 3rem 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    border-color: var(--background-azul1);
+    color: white;
+    background-color: var(--background-azul2);
+}
+
+/* -----------------------------SECCION DE BENEFICIOS--------------------------- */
+.beneficios {
+    text-align: center;
+    padding: .5rem;
+}
+
+.textBeneficios {
+    padding: .5rem 1.5rem;
+    text-align: justify;
+}
+
+
+/* -----------------------------SECCION DE INFORMACION PERSONAL ------------------------*/
+.inf {
+    text-align: center;
+    color: var(--background-azul1);
+}
+
+.textInf {
+    text-align: justify;
+    padding: .5rem 2rem;
+    color: var(--background-azul1);
+}
+
+/* ------------------------------------SECCION DE AYUDA------------------------------------ */
+.help {
+    text-align: center;
+    color: var(--background-azul1);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+}
+
+/* ------------------------SECCION FORMULARIO------------------------------------- */
+
+.contacto {
+    max-width: 90%;
+    margin: 1rem 4rem;
+    background-color: #09005657;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-radius: 2rem;
+}
+
+.imagen2 {
+    width: 37rem;
+    height: 30rem;
+    border-radius: 2rem;
+}
+
+.formulario {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+.contactanos {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    margin: .5rem 1rem;
+}
+
+.espacioUsuario {
+    border-radius: 1rem;
+    font-size: 1rem;
+    padding: .5rem 5rem;
+    margin: .5rem;
+    text-align: initial;
+}
+
+.espacioEmail {
+    border-radius: 1rem;
+    font-size: 1rem;
+    padding: .5rem 5rem;
+    margin: .5rem;
+    text-align: initial;
+}
+
+.espacioContacto {
+    border-radius: 1rem;
+    font-size: 1rem;
+    padding: .5rem 5rem;
+    margin: .5rem;
+    text-align: initial;
+}
+
+.submit {
+    border-radius: 2rem;
+    border-color: var(--background-azul1);
+    background-color: var(--background-azul2);
+    color: white;
+    padding: .05rem 1rem;
+    text-align: center;
+    margin: 2rem 12rem;
+}
 /* --------------------------------------------FOOTER */
 .logoFooter{
     width:8rem;
@@ -164,4 +391,6 @@ p:hover{
     text-decoration: unset;
     color: white;
 }
+
+
 
