@@ -85,6 +85,41 @@
 
 }
 /*----------------INICIA BODY------------------------------*/
+/* -------------------SECCION DE MAPA---------------- */
+.mapa{
+    margin:1rem 5rem;
+}
+.encuentranos {
+    width: 100%;
+    color: var(--background-azul1);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    padding: 1rem;
+    margin: 1 2rem;
+    transition: .2s;
+}
+
+.encuentranos:hover {
+    color: var(--color-azulCielo);
+}
+
+.google-maps {
+    width: 100%;
+    text-align: center;
+    padding: 2rem;
+    background-color: #047cfd13;
+}
+
+
+/* -------------SECCION REDES SOCIALES------------------- */
+.facebook{
+    gap:3rem;
+    margin:0.5rem 5rem;
+    border-radius: 5rem;
+    width: 15rem;
+    height: 15rem;
+}
+
 
 /* -------------------INICIA LA IMAGEN DEL FONDO------------------------- */
 .imagen1Fondo {

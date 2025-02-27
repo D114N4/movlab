@@ -71,13 +71,27 @@
 
 <body>
   <!-- SECCION DE FORMULARIO -->
-  <!-- <section>
-    <img class="imagen1Fondo" src="./sources/IMAGEN1.png">
-    <div class="sombra">
-      <h1>Movimiento Laborista</h1>
-      <button class="botonDonaciones">¡FORMA PARTE DE NOSOTROS!</button>
-    </div>
-  </section> -->
+  <fieldset class="contacto" id="contacto">
+    <img class="imagen2" src="./sources/img4.jpeg" class="imagenFormulario" alt="imagenPolitico">
+    <!-- Inicia formulario -->
+    <form class="formulario">
+      <h2 class="contactanos">Movimiento Laborista</h2>
+      <p class="registro">¡Apoyanos! 🫂 </p>
+      <label class="nombreUsuario" for="nombre">Nombre completo: </label>
+      <input class="espacioUsuario" type="text" id="nombre" placeholder="Nombre completo aquí" required><br>
+      <label class="email" for="email">Correo electrónico:</label>
+      <input class="espacioEmail" type="email" id="email" placeholder="ejemplo@correo.com" required><br>
+      <label class="contactos" for="number"> Contacto: </label>
+      <br>
+      <input class="espacioContacto" type="number" id="number" placeholder=" Numero telefónico"><br>
+      <!-- <label class="nacion" for="text">Nacionalidad</label>
+      <select class="espacioNacion" id="asunto" required>
+        <option>Mexicana (o)</option>
+        <option>Extranjera (o)</option>
+      </select><br> -->
+      <button class="submit">Submit</button>
+  </fieldset>
+
 
   <!-- FOOTER -->
   <footer class="text-center text-lg-start bg-body-tertiary text-muted">
