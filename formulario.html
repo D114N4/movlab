@@ -138,7 +138,7 @@
       <input class="espacioEmail" type="email" id="email" placeholder="ejemplo@correo.com" required><br>
       <label class="contactos" for="number"> Contacto: </label>
       <br>
-      <input class="espacioContacto" type="number" id="number" placeholder=" Numero telefónico"><br>
+      <input class="espacioContacto" type="number" id="telefono" placeholder=" Numero telefónico"><br>
       <!-- <label class="nacion" for="text">Nacionalidad</label>
       <select class="espacioNacion" id="asunto" required>
         <option>Mexicana (o)</option>
@@ -147,14 +147,14 @@
       <legend class="genero">Género</legend>
       <!-- Se crea una seccion de radio botones -->
       <label class="radioname" for="genero-masculino"> Masculino </label>
-      <input class="radio" type="radio" name="genero" id="genero-masculino">
+      <input id="radio" class="radio" type="radio" name="genero" id="genero-masculino">
 
       <label class="radioname" for="genero-femenino"> Femenino </label>
-      <input class="radio" type="radio" name="genero" id="genero-femenino">
+      <input id="radio" class="radio" type="radio" name="genero" id="genero-femenino">
 
       <label class="radioname" for="genero-otro"> Otro </label>
-      <input class="radio" type="radio" name="genero" id="genero-otro"><br>
-      <button class="submit">Submit</button>
+      <input  id="radio" class="radio" type="radio" name="genero" id="genero-otro"><br>
+      <button type="submit" id="submit" class="submit">Submit</button>
   </fieldset>
 
   <!-- FOOTER -->
@@ -251,5 +251,5 @@
   </footer>
 
 </body>
-<script src=""></script>
+<script src="./formulario.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
