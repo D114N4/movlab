@@ -289,6 +289,65 @@ p:hover{
         width: 35rem;
     }
 
+    /*IMAGENES DE PROPUESTAS*/
+    .politicos {
+    max-width: 100%;
+    margin: 3rem 8rem;
+}
+
+.encuentranos {
+    max-width: 100%;
+    margin: 0rem 1rem;
+}
+
+.persona {
+    max-width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .5rem;
+    color: var(--background-azul1);
+    margin: 0rem 4rem;
+    text-align: center;
+}
+
+.persona:hover {
+    color: #000000;
+}
+
+.fotoPersonaje {
+    max-width: 100%;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 10rem;
+    gap: 4rem;
+    margin: 1rem 3rem;
+}
+
+.saberMas {
+    max-width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: var(--background-azul1);
+    margin: .5rem 4rem 1rem 6rem;
+    padding: .1rem 1rem;
+    border-radius: 2rem;
+    border-color: var(--background-azul1);
+    align-items: start;
+}
+
+.saberMas:hover {
+    background-color: var(--color-azulCielo);
+    color: white;
+}
+
+.politicos {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+
+
 }
 
 /*700px*/
@@ -314,6 +373,61 @@ p:hover{
         font-size: .8rem;
     }
     
+     /*IMAGENES DE PROPUESTAS*/
+    .politicos {
+    max-width: 100%;
+    margin: 3rem 8rem;
+}
+
+.encuentranos {
+    max-width: 100%;
+    margin: 0rem 1rem;
+}
+
+.persona {
+    max-width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .5rem;
+    color: var(--background-azul1);
+    margin: 0rem 4rem;
+    text-align: center;
+}
+
+.persona:hover {
+    color: #000000;
+}
+
+.fotoPersonaje {
+    max-width: 100%;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 10rem;
+    gap: 4rem;
+    margin: 1rem 3rem;
+}
+
+.saberMas {
+    max-width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: var(--background-azul1);
+    margin: .5rem 4rem 1rem 6rem;
+    padding: .1rem 1rem;
+    border-radius: 2rem;
+    border-color: var(--background-azul1);
+    align-items: start;
+}
+
+.saberMas:hover {
+    background-color: var(--color-azulCielo);
+    color: white;
+}
+
+.politicos {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
     
 }
 
@@ -339,6 +453,62 @@ p:hover{
         width: 18rem;
         font-size: .8rem;
     }
+
+     /*IMAGENES DE PROPUESTAS*/
+    .politicos {
+    max-width: 100%;
+    margin: 3rem 4rem;
+}
+
+.encuentranos {
+    max-width: 100%;
+    margin: 0rem .5rem;
+}
+
+.persona {
+    max-width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .3rem;
+    color: var(--background-azul1);
+    margin: 0rem 2rem;
+    text-align: center;
+}
+
+.persona:hover {
+    color: #000000;
+}
+
+.fotoPersonaje {
+    max-width: 100%;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 6rem;
+    gap: 2rem;
+    margin: 1rem 2rem;
+}
+
+.saberMas {
+    max-width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .8rem;
+    color: var(--background-azul1);
+    margin: .5rem 1rem 1rem 2rem;
+    padding: .1rem 1rem;
+    border-radius: 1rem;
+    border-color: var(--background-azul1);
+    align-items: start;
+}
+
+.saberMas:hover {
+    background-color: var(--color-azulCielo);
+    color: white;
+}
+
+.politicos {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
 }
 
 /*350px*/
@@ -363,4 +533,59 @@ p:hover{
         width: 10rem;
         font-size: .5rem;
     }
+       /*IMAGENES DE PROPUESTAS*/
+    .politicos {
+    max-width: 100%;
+    margin: 3rem 4rem;
+}
+
+.encuentranos {
+    max-width: 100%;
+    margin: 0rem .5rem;
+}
+
+.persona {
+    max-width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .3rem;
+    color: var(--background-azul1);
+    margin: 0rem 2rem;
+    text-align: center;
+}
+
+.persona:hover {
+    color: #000000;
+}
+
+.fotoPersonaje {
+    max-width: 100%;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 6rem;
+    gap: 2rem;
+    margin: 1rem 2rem;
+}
+
+.saberMas {
+    max-width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .8rem;
+    color: var(--background-azul1);
+    margin: .5rem 1rem 1rem 2rem;
+    padding: .1rem 1rem;
+    border-radius: 1rem;
+    border-color: var(--background-azul1);
+    align-items: start;
+}
+
+.saberMas:hover {
+    background-color: var(--color-azulCielo);
+    color: white;
+}
+
+.politicos {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
 }
