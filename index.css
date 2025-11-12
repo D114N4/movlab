@@ -1,0 +1,797 @@
+/* Se eliminan los valores predeterminados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*PROPIEDADES UTILIZADAS EN TODO EL BODY*/
+:root {
+    --background-azul1: #080056;
+    --background-azul2: rgb(14, 51, 91);
+    --color-amarillo: #cccc36;
+    --color-azulCielo: #09A0Db;
+    --color-negro: #000000;
+    --font-size: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*--------NAVBAR-------------*/
+.logo {
+    width: 5rem;
+}
+
+.container-fluid {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    color: var(--background-azul1);
+}
+
+.navbar-brand {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    color: var(--background-azul1);
+    margin: 0.5rem;
+}
+
+.navbar-brand:hover {
+    text-decoration: underline;
+    color: var(--color-azulCielo);
+    transition: 1s;
+}
+
+.nav-link {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    color: var(--background-azul1);
+}
+
+.nav-link:hover {
+    color: var(--color-azulCielo);
+    text-decoration: underline;
+    transition: 1s;
+}
+
+.afiliate {
+    text-decoration: none;
+    border-radius: 2rem;
+    margin: .1rem .3rem;
+    padding: .1rem .1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: .85rem;
+    transition: .3s;
+    background-color: var(--color-azulCielo);
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    color: white;
+    display: flex;
+}
+
+.material-symbols-outlined {
+    margin: 0.1rem;
+}
+
+.material-symbols-outlined:hover {
+    color: var(--color-negro);
+    margin: 0.1rem;
+}
+
+.afiliate:hover {
+    text-decoration: none;
+    border-radius: 2rem;
+    margin: .2rem .3rem;
+    padding: .1rem .1rem;
+    cursor: pointer;
+    color: var(--color-negro);
+    transition: .3s;
+    font-size: .90rem;
+
+}
+
+/*----------------INICIA BODY------------------------------*/
+
+/* -------------------INICIA LA IMAGEN DEL FONDO------------------------- */
+.imagen1Fondo {
+    max-width: 100%;
+    width: 100%;
+    height: 35rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.sombra {
+    max-width: 100%;
+    position: absolute;
+    z-index: 0;
+    top: 20rem;
+    left: 28rem;
+    background-color: var(--background-azul2);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.9rem;
+    transition: opacity .3s;
+    opacity: 1;
+    padding: 2rem 5rem;
+    color: black;
+}
+
+.botonDonaciones {
+    max-width: 100%;
+    font-size: 1rem;
+    border-radius: 2rem;
+    transition: 1s;
+    text-decoration: none;
+    color:black;
+}
+
+.botonDonaciones:hover {
+    background-color: var(--background-azul2);
+    border-color: var(--background-azul1);
+    color: white;
+    text-decoration: none;
+}
+
+/*----------------INICIA SESION DE PREGUNTA--------------*/
+.preguntaExploracion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+    color: var(--background-azul1);
+    transition: 1s;
+    margin: 1.5rem 1.5rem 0.2rem  1.5rem;
+}
+
+.preguntaExploracion:hover {
+    color: var(--color-azulCielo);
+}
+
+.espaciopregunta {
+    display: flex;
+    justify-content: center;
+    margin: .2rem 20rem;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+    padding: .5rem 2rem;
+    color: var(--background-azul1);
+    border-color: var(--background-azul1);
+    border-radius: 3rem;
+    width: 50rem;
+}
+
+/* -----------------INICIA SESION DE BOLETINES-------------------- */
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 3rem 2rem 1rem 2rem;
+    text-align: start;
+    color:var(--background-azul1);
+}
+
+.card{
+    display: flex;
+    margin:0.5rem 1rem;
+    border:none;
+    text-align: justify;
+    width:35rem;
+    height: 35rem;
+}
+.card-img, .card-img-top{
+    width: 35rem;
+    height: 25rem;
+}
+
+.card-footer{
+    margin:1rem 1rem;
+    width: 15rem;
+}
+
+.btn1{
+    background-color: var(--background-azul1);
+    padding:.5rem 0.8rem;
+    border-radius: 2rem;
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn1:hover{
+    background-color: var(--color-azulCielo);
+    transition: 1s;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.saberMas{
+    display:flex;
+    padding:.5rem 6rem;
+    border-radius: 3rem;
+    color:white;
+    margin:2rem 3rem;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background-azul1);
+    color: white;
+}
+
+.saberMas:hover{
+    background-color: var(--color-azulCielo);
+    transition: 1s;
+}
+
+
+/* -------------------SECCION DE MAPA---------------- */
+.mapa{
+    margin:1rem 5rem;
+}
+.encuentranos {
+    width: 100%;
+    color: var(--background-azul1);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    padding: 1rem;
+    margin: 1 2rem;
+    transition: .2s;
+}
+
+.encuentranos:hover {
+    color: var(--color-azulCielo);
+}
+
+.google-maps {
+    width: 100%;
+    text-align: center;
+    padding: 2rem;
+    background-color: #047cfd13;
+}
+
+/* -------------SECCION REDES SOCIALES------------------- */
+.facebook{
+    gap:3rem;
+    margin:0.5rem 5rem;
+    border-radius: 5rem;
+    width: 15rem;
+    height: 15rem;
+}
+
+/*------------------SECCION DE NUESTRA POLITICA-------------*/
+.img1-fluid{
+    width: 35rem;
+    height: 25rem;
+}
+.card1-title{
+    margin: 1rem 1rem .5rem 25rem;
+    width: 35rem;
+}
+
+.card1-text{
+    margin: 1rem 1rem .5rem 25rem;
+    width: 35rem;
+}
+
+/* ----------------------------SECCION DE NUESTRAS PROPUESTAS -------------------------- */
+
+.politicos {
+    margin: 3rem 8rem;
+}
+
+.encuentranos {
+    margin: 0rem 1rem;
+}
+
+.persona {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: var(--background-azul1);
+    margin: 0rem 7rem;
+    text-align: center;
+}
+
+.persona:hover {
+    color: #000000;
+}
+
+.fotoPersonaje {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 15rem;
+    gap: 5rem;
+    margin: 1rem 5rem;
+}
+
+.saberMore {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: var(--background-azul1);
+    margin: .5rem 6rem 1rem 8rem;
+    padding: .1rem 1rem;
+    border-radius: 4rem;
+    border-color: var(--background-azul1);
+    align-items: start;
+}
+
+.saberMore:hover {
+    background-color: var(--color-azulCielo);
+    color: white;
+}
+
+.politicos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+
+/* --------------------------------------------FOOTER */
+.logoFooter{
+    width:8rem;
+    height: 8rem;
+}
+
+.socialRed{
+    margin:.5rem 2rem 0.5rem 0rem;
+    text-align: center;
+    width:2rem;
+    height: 2rem;
+}
+
+.footer{
+    padding: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: var(--background-azul1);
+}
+
+.text-uppercase:hover{
+    text-decoration: overline;
+    color:var(--color-azulCielo);
+}
+
+.text-reset:hover{
+    text-decoration: overline;
+    color: var(--color-azulCielo);
+}
+
+p:hover{
+    text-decoration: overline;
+    color:var(--color-azulCielo);
+}
+
+.text-center{
+    text-decoration: unset;
+    color: white;
+}
+
+/* ---------MEDIAQUERIES------------ */
+@media screen and (max-width: 1000px) {
+    .sombra {
+        max-width: 100%;
+        position: absolute;
+        z-index: 0;
+        top: 25rem;
+        left: 15rem;
+        background-color: var(--background-azul2);
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0.9rem;
+        transition: opacity .3s;
+        opacity: 1;
+        padding: 2rem 5rem;
+        color: white;
+    }
+
+    .espaciopregunta {
+        display: flex;
+        justify-content: center;
+        margin: .2rem 8rem;
+        align-items: center;
+        text-align: center;
+        font-size: 1rem;
+        padding: .5rem 2rem;
+        color: var(--background-azul1);
+        border-color: var(--background-azul1);
+        border-radius: 3rem;
+        width: 50rem;
+    }
+    .saberMas{
+        display:flex;
+        padding:.5rem 1rem;
+        border-radius: 3rem;
+        color:white;
+        margin:2rem 25rem;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--background-azul1);
+        color: white;
+    }
+    .card{
+        display: flex;
+        margin:0.5rem 1rem;
+        border:none;
+        text-align: justify;
+        width:22rem;
+        height: 35rem;
+    }
+    .card-img, .card-img-top{
+        width: 22rem;
+        height: 25rem;
+    }
+    
+    .card-footer{
+        margin:1rem 1rem;
+        width: 15rem;
+    }
+}
+
+/*700px*/
+@media screen and (max-width: 700px) {
+    .sombra {
+        max-width: 100%;
+        position: absolute;
+        z-index: 0;
+        top: 20rem;
+        left: 5rem;
+        background-color: var(--background-azul2);
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0.9rem;
+        transition: opacity .3s;
+        opacity: 1;
+        padding: 2rem 5rem;
+        color: white;
+    }
+    .espaciopregunta {
+        display: flex;
+        justify-content: center;
+        margin: .2rem 4rem;
+        align-items: center;
+        text-align: center;
+        font-size: 1rem;
+        padding: .5rem 2rem;
+        color: var(--background-azul1);
+        border-color: var(--background-azul1);
+        border-radius: 3rem;
+        width:35rem;
+    }
+    .saberMas{
+        display:flex;
+        padding:.5rem .5rem;
+        border-radius: 3rem;
+        color:white;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--background-azul1);
+        color: white;
+    }
+    .mapa{
+        margin:1rem 0rem;
+    }
+    .encuentranos {
+        color: var(--background-azul1);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+        padding: 1rem;
+        margin:0rem;
+        transition: .2s;
+    }
+    iframe{
+        margin: 0;
+        width: 15rem;
+        background-color: #000000;
+    }
+
+    .card{
+        display: flex;
+        margin:0.5rem 1rem;
+        border:none;
+        text-align: justify;
+        width:35rem;
+        height: 35rem;
+    }
+    .card-img, .card-img-top{
+        width: 35rem;
+        height: 25rem;
+    }
+    
+    .card-footer{
+        margin:1rem 1rem;
+        width: 20rem;
+    }
+    .google-maps {
+        text-align: center;
+        padding: 0rem;
+        width: 25rem;
+        background-color: #047cfd13;
+    }
+    .facebook{
+        gap:1rem;
+        margin:0.5rem 1rem;
+        border-radius: 5rem;
+        width: 10rem;
+        height: 10rem;
+    }
+    
+}
+
+/*500*/
+@media screen and (max-width: 500px) {
+    .sombra {
+        max-width: 100%;
+        position: absolute;
+        z-index: 0;
+        top: 25rem;
+        left: 2rem;
+        background-color: var(--background-azul2);
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0.9rem;
+        transition: opacity .3s;
+        opacity: 1;
+        padding: 2rem 5rem;
+        color: white;
+    }
+    .botonDonaciones {
+        max-width: 100%;
+        font-size: .7rem;
+        border-radius: 2rem;
+        transition: 1s;
+    }
+    
+    h1{
+        font-size: 1.5rem;
+    }
+    /* pregunta*/
+    .preguntaExploracion {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 1.5rem;
+        color: var(--background-azul1);
+        transition: 1s;
+        margin: 1.5rem 1.5rem 0.2rem  1.5rem;
+    }
+
+    .espaciopregunta {
+        display: flex;
+        justify-content: center;
+        margin: .2rem 2rem;
+        align-items: center;
+        text-align: center;
+        font-size: .9rem;
+        padding: .5rem 2rem;
+        color: var(--background-azul1);
+        border-color: var(--background-azul1);
+        border-radius: 3rem;
+        width: 25rem;
+    }
+    .card{
+        display: flex;
+        margin:0.5rem 1rem;
+        border:none;
+        text-align: justify;
+        width:23rem;
+        height: 35rem;
+    }
+    .card-img, .card-img-top{
+        width: 23rem;
+        height: 25rem;
+    }
+    
+    .card-footer{
+        margin:1rem 1rem;
+        width: 15rem;
+    }
+    .btn1{
+        background-color: var(--background-azul1);
+        padding:.5rem 0.8rem;
+        border-radius: 2rem;
+        color:white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .facebook{
+        gap:1rem;
+        margin:0.5rem .5rem;
+        border-radius: 5rem;
+        width: 7rem;
+        height: 7rem;
+    }
+    .btn1{
+        font-size: .6rem;
+        padding: .3rem .5rem;
+    }
+    .saberMas{
+        display:flex;
+        padding:.5rem 2rem;
+        border-radius: 3rem;
+        font-size: .5rem;
+        color:white;
+        margin:1rem 10rem;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--background-azul1);
+        color: white;
+    }
+
+    /*NUESTRAS PROPUESTAS*/
+    .politicos{
+        margin:1rem;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .politicosBox{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap:1rem;
+    }
+    .item-politico{
+        margin:1rem;
+        padding: 1rem;
+    }
+    .fotoPersonaje{
+        width: 10rem;
+        height: 10rem;
+    }
+    .figure{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .persona{
+        font-size: 1rem;
+        margin:0rem;
+    }
+    .saberMore{
+        font-size: .8rem;
+        margin: 0rem 6rem;
+    }
+    
+}
+/*350px*/
+@media screen and (max-width: 350px) {
+    .sombra {
+        max-width: 100%;
+        position: absolute;
+        z-index: 0;
+        top: 25rem;
+        left: .5rem;
+        background-color: var(--background-azul2);
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0.9rem;
+        transition: opacity .3s;
+        opacity: 1;
+        padding: 1rem 2rem;
+        color: white;
+    }
+    .botonDonaciones {
+        max-width: 100%;
+        font-size: .7rem;
+        border-radius: 2rem;
+        transition: 1s;
+    }
+    
+    h1{
+        font-size: 1.5rem;
+    }
+    /*pregunta*/
+    .preguntaExploracion {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 1.0rem;
+        color: var(--background-azul1);
+        transition: 1s;
+        margin: 1.5rem 1.5rem 0.2rem  1.5rem;
+    }
+    .espaciopregunta {
+        display: flex;
+        justify-content: center;
+        margin: .2rem 2.2rem;
+        align-items: center;
+        text-align: center;
+        font-size: .9rem;
+        padding: .2rem 1rem;
+        color: var(--background-azul1);
+        border-color: var(--background-azul1);
+        border-radius: 3rem;
+        width: 16rem;
+    }
+    .saberMas{
+        display:flex;
+        padding:.5rem 1rem;
+        border-radius: 3rem;
+        color:white;
+        margin:2rem 4rem;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--background-azul1);
+        color: white;
+    }
+    .card{
+        display: flex;
+        margin:0.5rem 1rem;
+        border:none;
+        text-align: justify;
+        width:18rem;
+        height: 30rem;
+    }
+    .card-img, .card-img-top{
+        width: 18rem;
+        height: 20rem;
+    }
+    
+    .card-footer{
+        margin:1rem 1rem;
+        width: 15rem;
+    }
+    .mapa{
+        margin:1rem 0rem;
+    }
+    .encuentranos {
+        color: var(--background-azul1);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+        padding: 0rem;
+        margin:0rem;
+        transition: .2s;
+    }
+    iframe{
+        margin: 0;
+        width: 8rem;
+        background-color: #000000;
+    }
+    .google-maps {
+        text-align: center;
+        padding: 0rem;
+        width: 10rem;
+        background-color: #047cfd13;
+    }
+    .facebook{
+        gap:1rem;
+        margin:0.5rem .5rem;
+        border-radius: 5rem;
+        width: 5rem;
+        height: 5rem;
+    }
+    /*NUESTRAS PROPUESTAS*/
+    .politicos{
+        margin:.0rem;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .politicosBox{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap:1rem;
+    }
+    .item-politico{
+        margin:1rem;
+        padding: 1rem;
+    }
+    .fotoPersonaje{
+        width: 6.6rem;
+        height: 6.6rem;
+    }
+    .figure{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .persona{
+        font-size: 1rem;
+        margin:0rem;
+    }
+    .saberMore{
+        font-size: .7rem;
+        margin: 0rem 5rem;
+    }
+    
+}

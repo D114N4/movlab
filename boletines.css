@@ -1,0 +1,296 @@
+/* Se eliminan los valores predeterminados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*PROPIEDADES UTILIZADAS EN TODO EL BODY*/
+:root {
+    --background-azul1: #080056;
+    --background-azul2: #0E335B;
+    --color-amarillo: #cccc36;
+    --color-azulCielo: #09A0Db;
+    --color-negro: #000000;
+    --font-size: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*--------NAVBAR-------------*/
+.logo {
+    width: 5rem;
+}
+
+.container-fluid {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    color: var(--background-azul1);
+}
+
+.navbar-brand {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    color: var(--background-azul1);
+    margin: 0.5rem;
+}
+
+.navbar-brand:hover {
+    text-decoration: underline;
+    color: var(--color-azulCielo);
+    transition: 1s;
+}
+
+.nav-link {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    color: var(--background-azul1);
+}
+
+.nav-link:hover {
+    color: var(--color-azulCielo);
+    text-decoration: underline;
+    transition: 1s;
+}
+
+.afiliate {
+    text-decoration: none;
+    border-radius: 2rem;
+    margin: .1rem .3rem;
+    padding: .1rem .1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: .85rem;
+    transition: .3s;
+    background-color: var(--color-azulCielo);
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    color: white;
+    display: flex;
+}
+
+.material-symbols-outlined {
+    margin: 0.1rem;
+}
+
+.material-symbols-outlined:hover {
+    color: var(--color-negro);
+    margin: 0.1rem;
+}
+
+.afiliate:hover {
+    text-decoration: none;
+    border-radius: 2rem;
+    margin: .2rem .3rem;
+    padding: .1rem .1rem;
+    cursor: pointer;
+    color: var(--color-negro);
+    transition: .3s;
+    font-size: .90rem;
+
+}
+
+/*----------------INICIA BODY------------------------------*/
+
+/* -------------------INICIA LA IMAGEN DEL FONDO------------------------- */
+.imagen1Fondo {
+    max-width: 100%;
+    width: 100%;
+    height: 35rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.sombra {
+    max-width: 100%;
+    position: absolute;
+    z-index: 0;
+    top: 20rem;
+    left: 28rem;
+    background-color: var(--background-azul2);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.9rem;
+    transition: opacity .3s;
+    opacity: 1;
+    padding: 2rem 5rem;
+    color: white;
+}
+
+.botonDonaciones {
+    max-width: 100%;
+    font-size: 1rem;
+    border-radius: 2rem;
+    transition: 1s;
+}
+
+.botonDonaciones:hover {
+    background-color: var(--background-azul2);
+    border-color: var(--background-azul1);
+    color: var(--color-amarillo);
+}
+
+/* --------------------------------------------FOOTER */
+.logoFooter{
+    width:8rem;
+    height: 8rem;
+}
+
+.socialRed{
+    margin:.5rem 2rem 0.5rem 0rem;
+    text-align: center;
+    width:2rem;
+    height: 2rem;
+}
+
+.footer{
+    padding: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: var(--background-azul1);
+}
+
+.text-uppercase:hover{
+    text-decoration: overline;
+    color:var(--color-azulCielo);
+}
+
+.text-reset:hover{
+    text-decoration: overline;
+    color: var(--color-azulCielo);
+}
+
+p:hover{
+    text-decoration: overline;
+    color:var(--color-azulCielo);
+}
+
+.text-center{
+    text-decoration: unset;
+    color: white;
+}
+
+
+
+/* -----------------INICIA SESION DE BOLETINES-------------------- */
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 3rem 2rem 1rem 2rem;
+    text-align: start;
+    color: var(--background-azul1);
+}
+
+.card {
+    display: flex;
+    margin: 0.5rem 1rem;
+    border: none;
+    text-align: justify;
+    width: 35rem;
+    height: 35rem;
+}
+
+.card-img,
+.card-img-top {
+    width: 35rem;
+    height: 25rem;
+}
+
+.card-footer {
+    margin: 1rem 1rem;
+    width: 15rem;
+}
+
+.btn1 {
+    background-color: var(--background-azul1);
+    padding: .5rem 0.8rem;
+    border-radius: 2rem;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btn1:hover {
+    background-color: var(--color-azulCielo);
+    transition: 1s;
+}
+
+/* ---------MEDIAQUERIES------------ */
+@media screen and (max-width: 1000px) {
+    .saberMas {
+        display: flex;
+        padding: .5rem 1rem;
+        border-radius: 3rem;
+        color: white;
+        margin: 2rem 25rem;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--background-azul1);
+        color: white;
+    }
+}
+
+/*700px*/
+@media screen and (max-width: 700px) {
+    .saberMas {
+        display: flex;
+        padding: .5rem .5rem;
+        border-radius: 3rem;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--background-azul1);
+        color: white;
+    }
+}
+
+/*500*/
+@media screen and (max-width: 500px) {
+    .card {
+        display: flex;
+        margin: 0.5rem 1rem;
+        border: none;
+        text-align: justify;
+        width: 25rem;
+        height: 25rem;
+    }
+
+    .card-img,
+    .card-img-top {
+        width: 25rem;
+        height: 25rem;
+    }
+
+    .card-footer {
+        margin: 1rem 1rem;
+        width: 15rem;
+    }
+}
+
+
+/*350px*/
+@media screen and (max-width: 350px) {
+    .card {
+        display: flex;
+        margin: 0.5rem 1rem;
+        border: none;
+        text-align: justify;
+        width: 18rem;
+        height: 20rem;
+    }
+
+    .card-img,
+    .card-img-top {
+        width: 18rem;
+        height: 20rem;
+    }
+
+    .saberMas {
+        display: flex;
+        padding: .5rem 1rem;
+        border-radius: 3rem;
+        color: white;
+        margin: 2rem 4rem;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--background-azul1);
+        color: white;
+    }
+}
